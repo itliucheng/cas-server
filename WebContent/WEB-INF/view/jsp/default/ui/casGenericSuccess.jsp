@@ -23,7 +23,6 @@
     <h2><spring:message code="screen.success.header" /></h2>
     <p><spring:message code="screen.success.success" /></p>
     <p><spring:message code="screen.success.security" /></p>
-    <h1>1111111111</h1>
   </div>
 <jsp:directive.include file="includes/bottom.jsp" />
 

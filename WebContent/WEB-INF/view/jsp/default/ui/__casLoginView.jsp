@@ -120,7 +120,7 @@
         <c:otherwise>
           <c:set var="loginUrl" value="login?${xquery}${not empty xquery ? '&' : ''}locale=" />
           <ul>
-            <li><a href="${loginUrl}en">English</a></li>
+            <li class="first"><a href="${loginUrl}en">English</a></li>
             <li><a href="${loginUrl}es">Spanish</a></li>
             <li><a href="${loginUrl}fr">French</a></li>
             <li><a href="${loginUrl}ru">Russian</a></li>
@@ -128,7 +128,7 @@
             <li><a href="${loginUrl}sv">Svenska</a></li>
             <li><a href="${loginUrl}it">Italiano</a></li>
             <li><a href="${loginUrl}ur">Urdu</a></li>
-            <li class="first"><a href="${loginUrl}zh_CN">Chinese (Simplified)</a></li>
+            <li><a href="${loginUrl}zh_CN">Chinese (Simplified)</a></li>
             <li><a href="${loginUrl}zh_TW">Chinese (Traditional)</a></li>
             <li><a href="${loginUrl}de">Deutsch</a></li>
             <li><a href="${loginUrl}ja">Japanese</a></li>
